@@ -4,6 +4,8 @@
 /* eslint-disable jsx-a11y/html-has-lang */
 import React from 'react';
 import PropTypes from 'prop-types';
+// import Img from "gatsby-image"
+//import { GatsbyImage } from "gatsby-plugin-image"
 
 export default function HTML({
   htmlAttributes,
