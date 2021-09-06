@@ -123,7 +123,7 @@ export const heroData = {
 
 ```javascript
 export const aboutData = {
-  img: 'profile.jpg', // put your profile image (recommended aspect radio: square)
+  img: 'pro.jpg', // put your profile image (recommended aspect radio: square)
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -182,22 +182,23 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '', // your twitter url
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '', // your codepen url
+      url: 'https://twitter.com/Chandrajitsata1', // your twitter url
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '', // your linkedin url
+      url: 'https://www.linkedin.com/in/chandrajit-satapathy-6a5b2396/', // your linkedin url
     },
     {
       id: nanoid(),
+      name: 'instagram',
+      url: 'https://www.instagram.com/chandrajit_satapathy/', // your codepen url
+    },
+    
+    {
+      id: nanoid(),
       name: 'github',
-      url: '', // your github url
+      url: 'https://github.com/chandrajitsatapathy', // your github url
     },
   ],
 };

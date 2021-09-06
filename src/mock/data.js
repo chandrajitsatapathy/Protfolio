@@ -2,56 +2,56 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Chandrajit Satapathy', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Welcome to my Website.', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hey, my name is',
+  name: 'Chandrajit',
+  subtitle: "",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'prog.jpeg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  //resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'todo.png',
+    title: 'TodoList',
+    info: 'Build this todo list using Mongodb as database and hosting it on Heroku server, it can store the task to be done and you can delete it after the task completed.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://powerful-anchorage-11968.herokuapp.com/',
+    //repo: 'https://twitter.com/home', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'dogt.png',
+    title: 'Fun Website',
+    info: 'This is a fun website, tinder for dog. Here a full website was made from scratch. ',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://chandrajitsatapathy.github.io/TinDog-Start-master/',
+    //repo: 'https://chandrajitsatapathy.github.io/TinDog-Start-master/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'drum.png',
+    title: 'Drums',
+    info: 'Created this applications where drums can be played either by clicking on it or pressing the respective letters.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://chandrajitsatapathy.github.io/Drum-Kit/',
+   // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'chandrajitsatapathy9@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,22 +68,23 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/Chandrajitsata1',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/chandrajit-satapathy-6a5b2396/',
     },
     {
       id: nanoid(),
+      name: 'instagram',
+      url: 'https://www.instagram.com/chandrajit_satapathy/',
+    },
+    
+    {
+      id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/chandrajitsatapathy',
     },
   ],
 };
